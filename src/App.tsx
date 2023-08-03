@@ -6,6 +6,8 @@ import "./App.css"
 import UploadFiles from "./UploadFiles"
 import ProgressMessage from "./ProgressMessage"
 
+const limitFiles = 100
+
 const App: FC = () => {
   const [progressMsg, setProgressMsg] = useState<string>(
     "Ничего не выбрано"
@@ -20,12 +22,13 @@ const App: FC = () => {
       <div className="info">
         <h3 className="info__title">Выберите файлы</h3>
         <p className="info__subtitle">
-          Минимум: 1, Максимум: 100
+          Минимум: 1, Максимум: {limitFiles}
         </p>
       </div>
 
       <div className="actions">
         <UploadFiles
+          limitFiles={limitFiles}
           setFilesUpload={setFilesUpload}
           setProgressMsg={setProgressMsg}
         />

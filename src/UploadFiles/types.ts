@@ -8,6 +8,7 @@ export interface IProgressMessageProps {
 }
 
 export interface IInputFilesProps {
+  limitFiles: number
   setProgressMsg: React.Dispatch<
     React.SetStateAction<string>
   >

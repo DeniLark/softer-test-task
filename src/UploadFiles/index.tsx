@@ -3,11 +3,10 @@ import { FC, useRef } from "react"
 import { uploadFile } from "./Api"
 import { IInputFilesProps } from "./types"
 
-const limitFiles = 100
-
 const UploadFiles: FC<IInputFilesProps> = ({
   setProgressMsg,
   setFilesUpload,
+  limitFiles,
 }) => {
   const inputFiles = useRef<HTMLInputElement>(null)
 
