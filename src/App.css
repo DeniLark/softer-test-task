@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.info {
+  text-align: center;
+}
+
+.actions {
+  text-align: center;
+}
+
+.actions__btn {
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.progress-message {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.progress-message--error {
+  color: rgb(182, 11, 11);
+}
+.progress-message--success {
+  color: rgb(20, 131, 20);
+}
