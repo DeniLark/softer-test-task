@@ -4,12 +4,11 @@
 
 ## Структура
 
-App.tsx - корневой компонент
-UploadFiles/index.tsx - компонент выбора и загрузки файлов
-ProgressMessage.tsx - компонент, отображающий простой отчет по загрузке
-
-UploadFiles/Api.ts - работа с API ЯндексДиска
-UploadFiles/types.ts - типы используемые в приложении
+* App.tsx - корневой компонент
+* UploadFiles/index.tsx - компонент выбора и загрузки файлов
+* ProgressMessage.tsx - компонент, отображающий простой отчет по загрузке
+* UploadFiles/Api.ts - работа с API ЯндексДиска
+* UploadFiles/types.ts - типы используемые в приложении
 
 ## Запуск
 
